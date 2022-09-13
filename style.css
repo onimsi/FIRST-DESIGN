@@ -1,0 +1,69 @@
+
+*{
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+list-style: none;
+}
+
+.container{
+    
+}
+
+ nav{
+    background-color: green;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+.webSiteName{
+    color: green;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.navLinks ol li{
+    display: inline-block;
+   margin: 0 30px;
+   color: #fff;
+   text-transform: capitalize;
+   font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+    
+    nav{
+        flex-direction: column;
+    }
+    .navLinks ol li{
+        display: flex;
+        margin: 50px 0;
+        background-color: #fff;
+        color: green;
+        padding: 5px;
+        width: 500px;
+        border-radius: 10px;
+    }
+}
+
+.sports{
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    background-color:#fff;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding: 0 50;
+    
+}
+.typeOfSports ol li{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    color:blue;
+    in    
+
+    margin:;
+}
